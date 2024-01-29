@@ -1,7 +1,6 @@
 import React from "react";
-import PropTypes from "prop-types";
 
-function ValuableClients(props) {
+function ValuableClients() {
   return (
     <div className="h-[800px] bg-white  text-black">
       <div>
@@ -106,7 +105,5 @@ function ValuableClients(props) {
     </div>
   );
 }
-
-ValuableClients.propTypes = {};
 
 export default ValuableClients;

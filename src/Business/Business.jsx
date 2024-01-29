@@ -1,7 +1,6 @@
 import React from "react";
-import PropTypes from "prop-types";
 
-function Business(props) {
+function Business() {
   return (
     <div className="p-28 h-[1000px] bg-white text-black">
       <div className=" text-3xl font-semibold">
@@ -57,7 +56,5 @@ function Business(props) {
     </div>
   );
 }
-
-Business.propTypes = {};
 
 export default Business;

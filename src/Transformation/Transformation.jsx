@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 function Transformation(props) {
   return (
@@ -31,7 +30,5 @@ function Transformation(props) {
     </div>
   );
 }
-
-Transformation.propTypes = {};
 
 export default Transformation;

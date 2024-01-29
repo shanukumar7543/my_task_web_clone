@@ -1,6 +1,6 @@
 import React from "react";
 
-function BeeEvery(props) {
+function BeeEvery() {
   return (
     <div className=" fiexd h-[1000px]  w-full text-white  bg-black">
       <div className=" ">
@@ -46,7 +46,5 @@ function BeeEvery(props) {
     </div>
   );
 }
-
-BeeEvery.propTypes = {};
 
 export default BeeEvery;

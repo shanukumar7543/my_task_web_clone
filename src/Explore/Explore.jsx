@@ -1,7 +1,6 @@
 import React from "react";
-import PropTypes from "prop-types";
 
-function Explore(props) {
+function Explore() {
   return (
     <div className=" bg-fixed  mt-4 h-[1500px] w-full bg-black">
       <div className="float-right text-xl mt-40 mr-20">
@@ -46,7 +45,5 @@ function Explore(props) {
     </div>
   );
 }
-
-Explore.propTypes = {};
 
 export default Explore;

@@ -1,6 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
-import BeeEvery from "../BeeEvery/BeeEvery";
 import Marquee from "react-fast-marquee";
 // import pic1 from "..//../publicebp";
 function OurClient(props) {
@@ -105,7 +103,5 @@ function OurClient(props) {
     </div>
   );
 }
-
-OurClient.propTypes = {};
 
 export default OurClient;

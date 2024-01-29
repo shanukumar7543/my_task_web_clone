@@ -1,7 +1,6 @@
 import React from "react";
-import PropTypes from "prop-types";
 
-function Service(props) {
+function Service() {
   return (
     <div className="">
       <div className="">
@@ -50,7 +49,5 @@ function Service(props) {
     </div>
   );
 }
-
-Service.propTypes = {};
 
 export default Service;

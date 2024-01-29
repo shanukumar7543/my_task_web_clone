@@ -1,13 +1,7 @@
 import React, { useEffect } from "react";
-import PropTypes from "prop-types";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { duration } from "@mui/material";
-{
-  /* <div data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom">
-</div> */
-}
+
 function FeaturedWork(props) {
   useEffect(() => {
     AOS.init({ duration: "1000" });
@@ -76,7 +70,5 @@ function FeaturedWork(props) {
     </div>
   );
 }
-
-FeaturedWork.propTypes = {};
 
 export default FeaturedWork;

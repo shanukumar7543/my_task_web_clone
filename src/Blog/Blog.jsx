@@ -1,7 +1,6 @@
 import React from "react";
-import PropTypes from "prop-types";
 
-function Blog(props) {
+function Blog() {
   return (
     <div className="p-24 h- flex ">
       <div>
@@ -69,7 +68,5 @@ function Blog(props) {
     </div>
   );
 }
-
-Blog.propTypes = {};
 
 export default Blog;

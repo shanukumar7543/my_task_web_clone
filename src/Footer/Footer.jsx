@@ -1,12 +1,11 @@
 import React from "react";
-import PropTypes from "prop-types";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import TelegramIcon from "@mui/icons-material/Telegram";
 
-function Footer(props) {
+function Footer() {
   return (
     <div className=" h-[1000px] w-[92%]  text-white  bg-black">
       <div className="flex">
@@ -260,7 +259,5 @@ function Footer(props) {
     </div>
   );
 }
-
-Footer.propTypes = {};
 
 export default Footer;
